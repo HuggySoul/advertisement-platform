@@ -1,0 +1,6 @@
+[submodule "avito-client"]
+	path = avito-client
+	url = https://github.com/HuggySoul/avito-client.git
+[submodule "avito-server"]
+	path = avito-server
+	url = https://github.com/HuggySoul/avito-server.git
