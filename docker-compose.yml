@@ -3,11 +3,11 @@ version: "3.8" # Версия формата docker-compose файла
 services:
   client:
     build:
-      context: ./avito-client
+      context: ./ad-client
     ports:
       - "8080:8080"
   server:
     build:
-      context: ./avito-server
+      context: ./ad-server
     ports:
       - "3000:3000"
